@@ -3,7 +3,7 @@ import blackCoffee from "../../data/blackMenu.json";
 
 export default function MenuPage() {
   return (
-    <main className="bg-[#FAF8F5] py-14 px-6">
+    <main className="bg-[#AED7E9] py-14 px-6 text-[#502D1D]">
       <div className="mx-auto max-w-5xl">
         {/* HEADER */}
         <div className="text-center mb-10">
@@ -11,7 +11,7 @@ export default function MenuPage() {
             Our Menu
           </h1>
 
-          <p className="mt-3 text-[#6B564C] max-w-xl mx-auto text-sm md:text-base">
+          <p className="mt-3 text-[#502D1D]/75 max-w-xl mx-auto text-sm md:text-base">
             Crafted with precision, served fresh. Explore our signature brews
             below.
           </p>
@@ -20,7 +20,7 @@ export default function MenuPage() {
         {/* MENU WRAPPER (adds structure) */}
         <div className="space-y-8">
           {/* MILK SECTION */}
-          <section className="bg-white border border-[#E8E1DA] rounded-3xl p-6 md:p-8 shadow-sm">
+          <section className="bg-[#F7FBFC] border border-[#502D1D]/10 rounded-2xl p-6 md:p-8 shadow-[0_18px_50px_rgba(80,45,29,0.10)]">
             <h2 className="text-2xl font-bold text-[#502D1D] mb-6">
               🥛 Milk-Based Coffees
             </h2>
@@ -29,18 +29,18 @@ export default function MenuPage() {
               {milkBased.map((item) => (
                 <div
                   key={item.name}
-                  className="flex justify-between items-start border-b last:border-none border-[#F0E7E1] pb-4"
+                  className="flex justify-between items-start border-b last:border-none border-[#502D1D]/10 pb-4"
                 >
                   <div className="pr-4">
                     <h3 className="font-semibold text-[#502D1D]">
                       {item.name}
                     </h3>
 
-                    <p className="text-xs md:text-sm text-[#6B564C] mt-1">
+                    <p className="text-xs md:text-sm text-[#502D1D]/70 mt-1">
                       {item.description}
                     </p>
 
-                    <span className="inline-block mt-2 text-[10px] md:text-xs bg-[#AED7E9] px-2 py-1 rounded-full">
+                    <span className="inline-block mt-2 text-[10px] md:text-xs bg-[#AED7E9] border border-[#502D1D]/10 px-2 py-1 rounded-full">
                       {item.availability}
                     </span>
                   </div>
@@ -54,7 +54,7 @@ export default function MenuPage() {
           </section>
 
           {/* BLACK COFFEE */}
-          <section className="bg-white border border-[#E8E1DA] rounded-3xl p-6 md:p-8 shadow-sm">
+          <section className="bg-[#F7FBFC] border border-[#502D1D]/10 rounded-2xl p-6 md:p-8 shadow-[0_18px_50px_rgba(80,45,29,0.10)]">
             <h2 className="text-2xl font-bold text-[#502D1D] mb-6">
               ☕ Black / No Milk
             </h2>
@@ -63,18 +63,18 @@ export default function MenuPage() {
               {blackCoffee.map((item) => (
                 <div
                   key={item.name}
-                  className="flex justify-between items-start border-b last:border-none border-[#F0E7E1] pb-4"
+                  className="flex justify-between items-start border-b last:border-none border-[#502D1D]/10 pb-4"
                 >
                   <div className="pr-4">
                     <h3 className="font-semibold text-[#502D1D]">
                       {item.name}
                     </h3>
 
-                    <p className="text-xs md:text-sm text-[#6B564C] mt-1">
+                    <p className="text-xs md:text-sm text-[#502D1D]/70 mt-1">
                       {item.description}
                     </p>
 
-                    <span className="inline-block mt-2 text-[10px] md:text-xs bg-[#AED7E9] px-2 py-1 rounded-full">
+                    <span className="inline-block mt-2 text-[10px] md:text-xs bg-[#AED7E9] border border-[#502D1D]/10 px-2 py-1 rounded-full">
                       {item.availability}
                     </span>
                   </div>
@@ -88,7 +88,7 @@ export default function MenuPage() {
           </section>
 
           {/* LEGEND (compact row style) */}
-          <section className="bg-[#AED7E9] rounded-2xl p-5 text-[#502D1D]">
+          <section className="bg-[#502D1D] rounded-2xl p-5 text-[#F7FBFC] shadow-[0_18px_50px_rgba(80,45,29,0.18)]">
             <div className="flex flex-wrap gap-x-6 justify-center gap-y-2 text-sm">
               <span>🔥 Hot</span>
               <span>❄️ Cold</span>
