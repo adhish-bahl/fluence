@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Espresso",
+    "price": 119,
+    "availability": "🔥",
+    "description": "A bold and concentrated coffee shot."
+  },
+  {
+    "name": "Americano",
+    "price": 119,
+    "availability": "🔥 ❄️",
+    "description": "Espresso diluted for a smooth, balanced cup."
+  },
+  {
+    "name": "Long Black",
+    "price": 119,
+    "availability": "🔥",
+    "description": "Hot water topped with espresso for rich flavour."
+  },
+  {
+    "name": "Macchiato",
+    "price": 139,
+    "availability": "🔥",
+    "description": "Espresso with a touch of milk foam."
+  },
+  {
+    "name": "Cortado",
+    "price": 139,
+    "availability": "🔥",
+    "description": "Equal parts espresso and lightly steamed milk."
+  },
+  {
+    "name": "Aerocano",
+    "price": 139,
+    "availability": "❄️",
+    "description": "A light, sparkling black coffee served chilled."
+  },
+  {
+    "name": "Just Pour Over",
+    "price": 149,
+    "availability": "🔥",
+    "description": "Clean and aromatic manual brew highlighting the bean."
+  },
+  {
+    "name": "Iced Pour Over",
+    "price": 149,
+    "availability": "❄️",
+    "description": "A crisp and refreshing chilled pour over."
+  },
+  {
+    "name": "Classic Cold Brew",
+    "price": 139,
+    "availability": "❄️",
+    "description": "Slow-steeped for a naturally smooth finish."
+  },
+  {
+    "name": "Espresso Sunshine ⭐",
+    "price": 159,
+    "availability": "❄️",
+    "description": "Our signature citrus-inspired espresso creation."
+  },
+  {
+    "name": "Vietnamese Cold Brew ⭐",
+    "price": 159,
+    "availability": "❄️",
+    "description": "Bold cold brew with Vietnamese-inspired character."
+  },
+  {
+    "name": "Vanilla Vietnamese Cold Brew",
+    "price": 159,
+    "availability": "❄️",
+    "description": "A vanilla twist on our signature Vietnamese brew."
+  },
+  {
+    "name": "Flavoured Cold Brew",
+    "price": 169,
+    "availability": "❄️",
+    "description": "Available in Orange, Cranberry, or Tender Coconut."
+  }
+]

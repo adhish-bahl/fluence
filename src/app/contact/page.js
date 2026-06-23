@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <main className="bg-[#FAF8F5] text-[#502D1D]">
+    <main className="bg-[#FAF8F5] min-h-[89vh] text-[#502D1D]">
 
       {/* Hero */}
       <section className="px-6 py-20 text-center">

@@ -31,7 +31,7 @@ export default function Home() {
       <section className="min-h-[90vh] flex items-center justify-center px-6">
         <div className="max-w-4xl text-center">
           <img
-            src={'/src/public/Logo.png'}
+            src={'/logo.png'}
             alt="Fluence Brew"
             className="mx-auto w-44 mb-8"
           />

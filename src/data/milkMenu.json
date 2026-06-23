@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Latte",
+    "price": 159,
+    "availability": "🔥 ❄️",
+    "description": "Smooth espresso blended with velvety steamed milk."
+  },
+  {
+    "name": "Flavoured Latte",
+    "price": 169,
+    "availability": "🔥 ❄️",
+    "description": "Classic latte with your choice of flavour."
+  },
+  {
+    "name": "Cappuccino",
+    "price": 149,
+    "availability": "🔥",
+    "description": "Espresso topped with silky steamed milk and foam."
+  },
+  {
+    "name": "Flat White",
+    "price": 149,
+    "availability": "🔥",
+    "description": "Rich espresso with finely textured microfoam."
+  },
+  {
+    "name": "Spanish Iced Latte",
+    "price": 159,
+    "availability": "❄️",
+    "description": "Creamy espresso with a hint of sweetness over ice."
+  },
+  {
+    "name": "Iced Coffee",
+    "price": 159,
+    "availability": "❄️",
+    "description": "Refreshing chilled coffee, perfect for any time."
+  },
+  {
+    "name": "Mocha ⭐",
+    "price": 179,
+    "availability": "🔥 ❄️",
+    "description": "Espresso, chocolate, and milk in perfect harmony."
+  }
+]
