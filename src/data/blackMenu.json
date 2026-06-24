@@ -24,12 +24,6 @@
     "description": "Espresso with a touch of milk foam."
   },
   {
-    "name": "Cortado",
-    "price": 139,
-    "availability": "🔥",
-    "description": "Equal parts espresso and lightly steamed milk."
-  },
-  {
     "name": "Aerocano",
     "price": 139,
     "availability": "❄️",

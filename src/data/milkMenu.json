@@ -24,6 +24,12 @@
     "description": "Rich espresso with finely textured microfoam."
   },
   {
+    "name": "Cortado",
+    "price": 139,
+    "availability": "🔥",
+    "description": "Equal parts espresso and lightly steamed milk."
+  },
+  {
     "name": "Spanish Iced Latte",
     "price": 159,
     "availability": "❄️",
